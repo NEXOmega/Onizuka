@@ -1,0 +1,26 @@
+{
+  "name": "onizuka",
+  "version": "0.1.0",
+  "description": "A discord bot for students",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deploy-commands.js && node index.js",
+    "lint": "eslint ."
+  },
+  "author": "NEXOmega",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-data-table": "^2.1.1",
+    "ascii-table3": "^0.8.2",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "node-html-to-image": "^4.0.0",
+    "node-ical": "0.16.1",
+    "node-schedule": "^2.1.1",
+    "node-wget": "0.4.3",
+    "table-builder": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}

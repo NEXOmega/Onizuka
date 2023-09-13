@@ -5,7 +5,6 @@ const ical = require('node-ical');
 const schedule = require('node-schedule');
 
 const client = require('../utils/client');
-const { log } = require('console');
 
 const projectId = 8;
 const ressource = 171130;

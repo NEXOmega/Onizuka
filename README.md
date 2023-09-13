@@ -93,8 +93,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Node][Node.js]][Node-url]
-* [![Discord][Discord.js]][Discord-url]
+* [![NodeJs][NodeJs]][Node-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

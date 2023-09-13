@@ -97,22 +97,6 @@ module.exports = {
 	},
 };
 
-function getTimeRemaining(endtime) {
-	const total = Date.parse(endtime) - Date.parse(new Date());
-	const seconds = Math.floor((total / 1000) % 60);
-	const minutes = Math.floor((total / 1000 / 60) % 60);
-	const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-	const days = Math.floor(total / (1000 * 60 * 60 * 24));
-
-	return {
-		total,
-		days,
-		hours,
-		minutes,
-		seconds,
-	};
-}
-
 function formatAsTableCase(course) {
 	return { summary: course.summary, loc: course.location, start: course.start };
 	// return `${course.summary}\noù ${course.location}\nà ${course.start}`;

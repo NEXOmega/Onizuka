@@ -14,7 +14,7 @@ const date7 = new Date();
 date7.setDate(date7.getDate() + 7);
 const lastDate = formatDate(date7);
 
-const url = `https://ade-web-consult.univ-amu.fr/jsp/custom/modules/plannings/anonymous_cal.jsp?projectId=${projectId}&resources=${ressource}&calType=ical&firstDate=${firstDate}&lastDate=${lastDate}`;
+const url = `${process.env.ADE_LINK}?projectId=${projectId}&resources=${ressource}&calType=ical&firstDate=${firstDate}&lastDate=${lastDate}`;
 
 const nextCourse = { 1:null, 2:null, 3:null, 4:null };
 let courses = [];
